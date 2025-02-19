@@ -1,0 +1,14 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Watch: Toronto plane crash footage analysed by aviation experts",
+      "views": "On Monday afternoon a Delta Air Lines plane crashed as it came in to land at Toronto Pearson Airport "
+    },
+    {
+      "id": "2",
+      "title": "Japan to increase reliance on nuclear energy in post-Fukushima shift",
+      "views": "A new energy plan cites growing demand from power-hungry AI data centres and semiconductor plants."
+    }
+  ]
+}

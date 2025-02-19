@@ -1,0 +1,143 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.active {
+  color: greenyellow;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+
+/* General Reset */
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+/* Body Styling with Top Padding */
+body {
+  background-color: #f8f9fa;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding-top: none; /* Adjust padding for fixed header height */
+}
+
+/* Main Container */
+.container {
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+  flex: 1;
+  padding: 30px 30px;
+}
+
+button {
+  display: inline-block;
+  background: #404040;
+  color: white;
+  padding: 12px 24px;
+  margin: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background 0.3s ease-in-out;
+}
+
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  background-color: #f8f9fa; /* Light background for the navigation bar */
+  padding: 10px 10px;
+  border-radius: 5px;
+  top: 0;
+}
+
+/* Styles for each NavLink */
+nav a {
+  color: #547D86; /* Blue color for the links */
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 5px; /* Spacing between links */
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-bottom: 2px solid #547D86;
+  top: 0;
+}
+
+/* Header Styling (fixed at top) */
+header {
+  background-color: #547D86;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Ensures the header is always on top */
+}
+
+/* Footer Styling */
+footer {
+  background-color: #404040;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+}
